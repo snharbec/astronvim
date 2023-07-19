@@ -16,6 +16,7 @@ return {
   { import = "astrocommunity.editing-support/vim-move" },
   { import = "astrocommunity.git.git-blame-nvim" },
   { import = "astrocommunity.git.neogit" },
+  { import = "astrocommunity.indent/mini-indentscope" },
   { import = "astrocommunity.motion.flash-nvim" },
   { -- further customize the options set by the community
     "catppuccin",
