@@ -15,6 +15,7 @@ return {
   { import = "astrocommunity.editing-support/rainbow-delimiters-nvim" },
   { import = "astrocommunity.editing-support/vim-move" },
   { import = "astrocommunity.git.git-blame-nvim" },
+  { import = "astrocommunity.git.neogit" },
   { import = "astrocommunity.motion.flash-nvim" },
   { -- further customize the options set by the community
     "catppuccin",

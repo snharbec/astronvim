@@ -10,6 +10,7 @@ return {
     -- mappings seen under group name "Buffer"
     ["H"] = { "<cmd>bprev<cr>", desc = "Previous tab" },
     ["L"] = { "<cmd>bnext<cr>", desc = "Previous tab" },
+    ["<leader>gG"] = { "<cmd>Neogit<cr>", desc = "Neogit" },
     ["<leader>bn"] = { "<cmd>tabnew<cr>", desc = "New tab" },
     ["<leader>bD"] = {
       function()
