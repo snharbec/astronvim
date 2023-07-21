@@ -22,8 +22,10 @@ return {
     "catppuccin",
     opts = {
       flavour = "latte",
-      default_options = {
-        transparent_background2 = true,
+      transparent_background = false,
+      show_end_of_buffer = true,
+      styles = {
+        comments = { "bold"},
       },
       integrations = {
         sandwich = false,
