@@ -10,6 +10,13 @@ return {
     -- mappings seen under group name "Buffer"
     ["H"] = { "<cmd>bprev<cr>", desc = "Previous tab" },
     ["L"] = { "<cmd>bnext<cr>", desc = "Previous tab" },
+    ["0"] = { "q", desc = "delete this window" },
+    ["1"] = { "o", desc = "delete other window" },
+    ["o"] = { "w", desc = "Previous window" },
+    ["<leader>ss"] = { "<cmd>Telescope current_buffer_fuzzy_find<cr>", desc = "Search inside buffer" },
+    ["<leader>sm"] = { "<cmd>Telescope man_pages<cr>", desc = "Search for man page" },
+    ["<leader>sf"] = { "<cmd>Telescope live_grep<cr>", desc = "Search within files" },
+    ["<leader>sg"] = { "<cmd>Telescope git_status<cr>", desc = "Search GIT" },
     ["<leader>gG"] = { "<cmd>Neogit<cr>", desc = "Neogit" },
     ["<leader>bn"] = { "<cmd>tabnew<cr>", desc = "New tab" },
     ["<leader>bD"] = {
@@ -25,6 +32,11 @@ return {
     ["<leader>b"] = { name = "Buffers" },
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
+  },
+  i = {
+    ["<C-BS>"] = { "<C-W>", desc = "Delete previous word" },
+    ["<C-H>"] = { "<S-Left>", desc = "previous word" },
+    ["<C-L>"] = { "<S-Right>", desc = "previous word" },
   },
   t = {
     -- setting a mapping to false will disable it

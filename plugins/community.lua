@@ -2,12 +2,12 @@ return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.lua" },
-  { import = "astrocommunity.pack.java" },
   { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.pack.bash" },
   { import = "astrocommunity.pack.json" },
   { import = "astrocommunity.pack.yaml" },
   { import = "astrocommunity.pack.typescript" },
+  { import = "astrocommunity.pack.java" },
   { import = "astrocommunity.colorscheme.nightfox-nvim", enabled = false },
   { import = "astrocommunity.colorscheme.kanagawa-nvim", enabled = true },
   { import = "astrocommunity.colorscheme.rose-pine" },
@@ -16,8 +16,8 @@ return {
   { import = "astrocommunity.editing-support/vim-move" },
   { import = "astrocommunity.git.git-blame-nvim" },
   { import = "astrocommunity.git.neogit" },
-  { import = "astrocommunity.indent/mini-indentscope" },
   { import = "astrocommunity.motion.flash-nvim" },
+  { import = "astrocommunity.motion.harpoon" },
   { -- further customize the options set by the community
     "catppuccin",
     opts = {
@@ -40,7 +40,6 @@ return {
     },
   },
   { import = "astrocommunity.bars-and-lines.vim-illuminate" },
-  { import = "astrocommunity.bars-and-lines.smartcolumn-nvim" },
   {
     "m4xshen/smartcolumn.nvim",
     opts = {
