@@ -27,6 +27,11 @@ return {
       styles = {
         comments = { "bold"},
       },
+      color_overrides  = {
+        latte = {
+          base = "#fffffa",
+        },
+      },
       integrations = {
         sandwich = false,
         noice = true,
